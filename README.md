@@ -15,3 +15,4 @@ Edit or extend as needed.
 ## Notes
 - Fabric API is **not required**.
 - If yarn build number differs in your environment, edit `gradle.properties` → `yarn_mappings` to a valid one.
+ 
