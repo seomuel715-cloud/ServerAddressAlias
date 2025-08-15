@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "server_address_alias",
+  "version": "${version}",
+  "name": "Server Address Alias",
+  "description": "Client-side aliasing of server addresses so Xaero treats each fake address as a separate world.",
+  "authors": [
+    "ChatGPT"
+  ],
+  "license": "MIT",
+  "icon": "assets/server_address_alias/icon.png",
+  "environment": "client",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4"
+  },
+  "mixins": [
+    "server_address_alias.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "kr.mcv.alias.ServerAddressAliasMod"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "kr.mcv.alias.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ServerAddressParseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
